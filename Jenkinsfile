@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 echo '📥 Fetching code from GitHub...'
-                git 'https://github.com/YOUR_USERNAME/YOUR_REPO.git'
+                git 'https://github.com/MADHU8912/my-zone.git'
             }
         }
 
